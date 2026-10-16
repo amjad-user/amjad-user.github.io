@@ -196,7 +196,7 @@ h3{font-size:14.5px;letter-spacing:-.01em;font-weight:600;margin:0;line-height:1
 footer{position:relative;z-index:1;padding-block:28px 40px;text-align:center;font-size:13px;color:var(--fg-3)}
 
 /* responsive */
-@media (max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}.grid .card:last-child{grid-column:1/-1}}
+.grid>.card{grid-column:1/-1}
 @media (max-width:900px){
   .hero-card,.card.feature,.about,.contact{grid-template-columns:1fr}
   .life{grid-template-columns:1fr}
@@ -330,26 +330,6 @@ footer{position:relative;z-index:1;padding-block:28px 40px;text-align:center;fon
             <ul class="chips" aria-label="Technologies"><li>FastAPI</li><li>SQLite</li><li>JavaScript</li></ul>
             <span class="foot go">View on GitHub <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
           </a>
-
-          <article class="card glass">
-            <div class="c-top">
-              <span class="logo lg amber"><svg aria-hidden="true"><use href="#i-cards"/></svg></span>
-              <div class="c-meta"><h3>Karteikasten</h3><span class="sub">Web app</span></div>
-              <span class="state">Personal</span>
-            </div>
-            <p><b>Spaced-repetition engine</b> on a five-box Leitner algorithm: 331 cards across 16 modules, five study modes and persistent per-card performance tracking.</p>
-            <ul class="chips" aria-label="Technologies"><li>Flask</li><li>SQLite</li></ul>
-          </article>
-
-          <article class="card glass">
-            <div class="c-top">
-              <span class="logo lg mauve"><svg aria-hidden="true"><use href="#i-needle"/></svg></span>
-              <div class="c-meta"><h3>StitchMarket</h3><span class="sub">Desktop app</span></div>
-              <span class="state">University</span>
-            </div>
-            <p><b>Role-based marketplace</b> for independent fashion designers and clients: an object-oriented domain model, distinct designer and client capabilities, media uploads and a full cart-to-checkout flow.</p>
-            <ul class="chips" aria-label="Technologies"><li>Python</li><li>OOP</li><li>tkinter</li></ul>
-          </article>
         </div>
       </div>
     </section>
@@ -367,7 +347,7 @@ footer{position:relative;z-index:1;padding-block:28px 40px;text-align:center;fon
         <div class="life">
           <div class="glass"><span class="logo amber"><svg aria-hidden="true"><use href="#i-speech"/></svg></span><h3>Languages</h3><p>Bilingual across Arabic and English.</p></div>
           <div class="glass"><span class="logo blue"><svg aria-hidden="true"><use href="#i-sigma"/></svg></span><h3>Mathematics</h3><p>Calculus, linear algebra and the formal reasoning behind the algorithms.</p></div>
-          <div class="glass"><span class="logo mauve"><svg aria-hidden="true"><use href="#i-spark"/></svg></span><h3>Fashion &amp; events</h3><p>An eye for aesthetics and the origin of StitchMarket.</p></div>
+          <div class="glass"><span class="logo mauve"><svg aria-hidden="true"><use href="#i-spark"/></svg></span><h3>Fashion &amp; events</h3><p>An eye for aesthetics, detail and presentation.</p></div>
         </div>
       </div>
     </section>
